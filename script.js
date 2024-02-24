@@ -1,5 +1,3 @@
-console.log("funcionou");
-
 const botoes = document.querySelectorAll(".btn");
 
 for (let i = 0; i < botoes.length; i++) {

@@ -15,6 +15,7 @@ body{
     background-color: var(--black);
     color: var(--branco);
     font-family: var(--fonte);
+    transition: all 5s ease-in-out;
 }
 
 .container-principal{
@@ -52,6 +53,7 @@ body{
     border-left: 2px solid var(--borda);
     border-right: 2px solid var(--borda);
     border-top: none;
+    cursor: pointer;
 }
 
 .btn:first-child{
