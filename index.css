@@ -5,7 +5,7 @@
     --barra-interativa: #D90F0F;
     --branco: #fff;
     --btn-ativo: #361717;
-    --borda: #242424;
+    --borda: #151515;
     --black: #000;
     --fonte: "Anta", sans-serif;
     --cor-txt: #FF0000;
@@ -60,6 +60,11 @@ body{
 
 .botoes{
     display: block;
+}
+
+.active{
+    background-color: var(--btn-ativo);
+    border-bottom: 4px solid var(--barra-interativa);
 }
 
 @media screen and (min-width: 768px) {
