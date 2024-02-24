@@ -49,7 +49,29 @@ body{
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--borda);
-    border-left: 4px solid var(--borda-lateral);
-    border-right: 4px solid var(--borda-lateral);
+    border-left: 2px solid var(--borda-lateral);
+    border-right: 2px solid var(--borda-lateral);
     border-top: none;
+}
+
+.btn:first-child{
+    border-radius: 35px 35px 0 0;
+}
+
+.botoes{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .botoes{
+        display: flex;
+    }
+
+    .btn:first-child{
+        border-radius: 35px 0 0 0;
+    }
+
+    .btn:last-child{
+        border-radius: 0 35px 0 0;
+    }
 }
