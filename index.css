@@ -5,8 +5,7 @@
     --barra-interativa: #D90F0F;
     --branco: #fff;
     --btn-ativo: #361717;
-    --borda: #700A0A;
-    --borda-lateral: #3A375E;
+    --borda: #242424;
     --black: #000;
     --fonte: "Anta", sans-serif;
     --cor-txt: #FF0000;
@@ -50,8 +49,8 @@ body{
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--borda);
-    border-left: 2px solid var(--borda-lateral);
-    border-right: 2px solid var(--borda-lateral);
+    border-left: 2px solid var(--borda);
+    border-right: 2px solid var(--borda);
     border-top: none;
 }
 
