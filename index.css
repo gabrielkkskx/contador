@@ -5,7 +5,8 @@
     --barra-interativa: #D90F0F;
     --branco: #fff;
     --btn-ativo: #361717;
-    --borda: #A01B1B;
+    --borda: #700A0A;
+    --borda-lateral: #3A375E;
     --black: #000;
     --fonte: "Anta", sans-serif;
     --cor-txt: #FF0000;
@@ -22,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -35,4 +36,20 @@ body{
 
 .titulo span{
     color: var(--cor-txt);
+}
+
+.btn{
+    display: flex;
+    font-family: var(--fonte);
+    background-color: var(--background-topicos);
+    color: var(--branco);
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--borda);
+    border-left: 4px solid var(--borda-lateral);
+    border-right: 4px solid var(--borda-lateral);
+    border-top: none;
 }
