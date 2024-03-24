@@ -71,10 +71,20 @@ body{
     border-bottom: 4px solid var(--barra-interativa);
 }
 
-/* Estilize o botão ativo com uma cor diferente */
+/* Estilo do botão ativo */
 .btn.active {
     background-color: var(--btn-ativo);
     color: white;
+}
+
+.abas{
+    background-color: var(--background-topicos);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.btn.active{
+    
 }
 
 
