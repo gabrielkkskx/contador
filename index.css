@@ -86,12 +86,12 @@ body{
     display: none;
 }
 
-.conteudo.titulo-conteudo{
+.titulo-conteudo{
     font-size: 28px;
     text-align: center;    
 }
 
-.conteudo.subtitulo-conteudo{
+.subtitulo-conteudo{
     text-align: center;
     color: var(--cor-txt);
     text-transform: uppercase;
