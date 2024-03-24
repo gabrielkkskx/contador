@@ -88,13 +88,15 @@ body{
 
 .titulo-conteudo{
     font-size: 28px;
-    text-align: center;    
+    text-align: center;
+    font-weight: 400; 
 }
 
 .subtitulo-conteudo{
     text-align: center;
     color: var(--cor-txt);
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 
