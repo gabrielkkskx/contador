@@ -91,7 +91,7 @@ body{
     text-align: center;    
 }
 
-.conteudo-subtitulo-conteudo{
+.conteudo.subtitulo-conteudo{
     text-align: center;
     color: var(--cor-txt);
     text-transform: uppercase;
