@@ -9,6 +9,7 @@
     --black: #000;
     --fonte: "Anta", sans-serif;
     --cor-txt: #FF0000;
+    --bg-abas: #0c0c0c;
 }
 
 body{
@@ -66,26 +67,37 @@ body{
     display: block;
 }
 
-.active{
+.btn.active{
     background-color: var(--btn-ativo);
     border-bottom: 4px solid var(--barra-interativa);
 }
 
-/* Estilo do botão ativo */
-.btn.active {
-    background-color: var(--btn-ativo);
-    color: white;
-}
-
 .abas{
-    background-color: var(--background-topicos);
+    background-color: var(--bg-abas);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
 
-.btn.active{
-    
+.conteudo.active{
+    display: block;
 }
+
+.conteudo{
+    display: none;
+}
+
+.conteudo.titulo-conteudo{
+    font-size: 28px;
+    text-align: center;    
+}
+
+.conteudo-subtitulo-conteudo{
+    text-align: center;
+    color: var(--cor-txt);
+    text-transform: uppercase;
+}
+
+
 
 
 @media screen and (min-width: 768px) {
